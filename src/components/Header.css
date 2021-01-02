@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #36393e;
+  height: 35px;
+}
+
+.header__logo {
+  height: 33px;
+  object-fit: contain;
+  margin-left: 30px;
+}
+
+.header_getbot {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  margin-right: -20px;
+  padding: 22.5px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.header__getbot {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.header_commands {
+  padding: 22.5px;
+}
+
+.header__commands {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.header_commands:hover {
+  background-color: #27292c;
+}
+
+.header_about {
+  padding: 22.5px;
+}
+
+.header__about {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.header_about:hover {
+  background-color: #27292c;
+}
+
+.header_right {
+  margin-left: auto;
+  display: flex;
+}
+
+.header__name {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 22.5px;
+}

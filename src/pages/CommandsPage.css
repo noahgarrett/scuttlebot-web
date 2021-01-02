@@ -1,0 +1,42 @@
+.commands_title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 1em;
+}
+
+.commands_item td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.commands_list {
+  background-color: white;
+  border-collapse: collapse;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  border: 3px solid #ddd;
+  table-layout: fixed;
+}
+
+.commands_list tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 0.35em;
+}
+
+.commands_list td {
+  padding: 0.8em;
+  text-align: center;
+}
+
+.commands_list th {
+  padding: 0.8em;
+  text-align: center;
+  background-color: #738ad7;
+}
+.command_item_syntax {
+  color: #738ad7;
+}
