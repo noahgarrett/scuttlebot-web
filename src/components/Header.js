@@ -5,18 +5,18 @@ function Header() {
   return (
     <div className="header">
       <div className="header__left">
-        <a href="/" className="header__name">
+        <a href="/scuttlebot-web" className="header__name">
           ScuttleBot
         </a>
       </div>
       <div class="header_right">
-        <div href="/about" className="header_about">
-          <a href="/about" className="header__about">
+        <div href="/scuttlebot-web/about" className="header_about">
+          <a href="/scuttlebot-web/about" className="header__about">
             ABOUT
           </a>
         </div>
-        <div href="/commands" className="header_commands">
-          <a href="/commands" className="header__commands">
+        <div href="/scuttlebot-web/commands" className="header_commands">
+          <a href="/scuttlebot-web/commands" className="header__commands">
             COMMANDS
           </a>
         </div>
