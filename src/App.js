@@ -23,13 +23,13 @@ function App() {
         <React.Fragment>
           <Router>
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/scuttlebot-web">
                 <HomePage />
               </Route>
-              <Route exact path="/about">
+              <Route exact path="/scuttlebot-web/about">
                 <HomePage />
               </Route>
-              <Route exact path="/commands">
+              <Route exact path="/scuttlebot-web/commands">
                 <CommandsPage />
               </Route>
             </Switch>
