@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/scuttlebot-web/static/css/main.ce720721.chunk.css",
-    "main.js": "/scuttlebot-web/static/js/main.39ee59fa.chunk.js",
-    "main.js.map": "/scuttlebot-web/static/js/main.39ee59fa.chunk.js.map",
+    "main.js": "/scuttlebot-web/static/js/main.d14adf17.chunk.js",
+    "main.js.map": "/scuttlebot-web/static/js/main.d14adf17.chunk.js.map",
     "runtime-main.js": "/scuttlebot-web/static/js/runtime-main.96e5ac64.js",
     "runtime-main.js.map": "/scuttlebot-web/static/js/runtime-main.96e5ac64.js.map",
     "static/js/2.d6049511.chunk.js": "/scuttlebot-web/static/js/2.d6049511.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.96e5ac64.js",
     "static/js/2.d6049511.chunk.js",
     "static/css/main.ce720721.chunk.css",
-    "static/js/main.39ee59fa.chunk.js"
+    "static/js/main.d14adf17.chunk.js"
   ]
 }
