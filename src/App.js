@@ -21,7 +21,7 @@ function App() {
       <Header />
       <div className="app__page">
         <React.Fragment>
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Switch>
               <Route exact path="/">
                 <HomePage />
