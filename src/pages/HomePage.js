@@ -5,9 +5,28 @@ function HomePage() {
   return (
     <div className="home">
       <div>
-        <p>ScuttleBot</p>
+        <h1 className="title">ScuttleBot</h1>
+        <div className="images">
+          <p>Help Command</p>
+          <img
+            src="https://cdn.discordapp.com/attachments/787493493927968790/798404235845828618/help.png"
+            alt="Help Command"
+          ></img>
 
-        <div className="community_discord_link">
+          <p>Analytics Command</p>
+          <img
+            src="https://cdn.discordapp.com/attachments/787493493927968790/798404219644280842/analytics.png"
+            alt="Analytics Command"
+          ></img>
+
+          <p>Analytics Command</p>
+          <img
+            src="https://cdn.discordapp.com/attachments/787493493927968790/798404219644280842/analytics.png"
+            alt="Analytics Command"
+          ></img>
+        </div>
+
+        {/* <div className="community_discord_link">
           <a
             className="community_link"
             href="https://discord.gg/Crmnp3fkX7"
@@ -19,7 +38,7 @@ function HomePage() {
               class="community_discord_server_img"
             ></img>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
